@@ -1,6 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+body,
+html {
+  height: 100%;
+}
+
 body {
+  background: #e5eef1;
   margin: 0;
+  overflow-y: scroll;
   padding: 0;
+  color: rgb(34, 37, 41);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  height: 100vh;
+  font-family: Righteous;
+  text-transform: uppercase;
+}
+
+.header h3 {
+  font-weight: 400;
+  color: #c62828;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0.25rem;
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-transform: initial;
+  opacity: 0.4;
+}
+
+.footer span {
+  color: #f44336;
+}
+
+@media (min-width: 900px) {
+  .header {
+    width: 300px;
+  }
+  .header > div {
+    position: fixed;
+    top: 1rem;
+    width: 300px;
+    padding: 0.5rem 1rem;
+    background: rgba(228, 238, 240, 0.75);
+  }
+}

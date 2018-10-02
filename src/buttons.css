@@ -1,0 +1,13 @@
+.btn {
+  background: #c62828;
+  color: white;
+  font-family: Righteous;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  background: rgb(204, 73, 73);
+  color: white;
+  text-decoration: none;
+}
